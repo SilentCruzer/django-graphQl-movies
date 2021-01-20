@@ -73,6 +73,9 @@ WSGI_APPLICATION = 'django_graphql_movies.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
+GRAPHENE = {
+    'SCHEMA': 'django_graphql_movies.schema.schema'
+}
 
 DATABASES = {
     'default': {
